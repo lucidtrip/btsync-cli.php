@@ -1,6 +1,13 @@
 btsync-cli.php
 ======
-**btsync-cli.php** is a tool to adddir, addsyncfolder, removefolder and getsyncfolders via terminal.
+**btsync-cli.php** is a command line interface tool for `bit torrent sync <http://www.bittorrent.com/sync>`_
+to adddir, addsyncfolder, removefolder and getsyncfolders.
+
+
+## Core Requirements
+* PHP with phpcurl
+* `bit torrent sync <http://www.bittorrent.com/sync>`_
+* bit torrent sync config (important! needed webUI-listen, -login, -admin and -password)
 
 ## usage
 ```bash
