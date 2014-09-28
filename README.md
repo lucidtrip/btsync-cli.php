@@ -1,14 +1,23 @@
+btsync-cli.php
+======
+**btsync-cli.php** is a tool to adddir, addsyncfolder, removefolder and getsyncfolders via terminal.
 
-============================================================================
-		btsync-cli.php
-			code by bop
-============================================================================
+## usage
+php btsync-cli.php <btsync.conf> <action> <data>
 
-usage: $ php btsync-cli.php <btsync.conf> <action> <data>
+## examples
+adddir:
+`php btsync-cli.php btsync.conf adddir /home/user/folder`
 
-action:		data:			usage:
-adddir		<folder>		./btsync-cli.php btsync.conf adddir /home/user/folder
-addsyncfolder	<secret> <folder>	./btsync-cli.php btsync.conf addsyncfolder FOOBARFOOBARFOOBARFOOBAR /home/user/folder
-removefolder	<secret> <folder>	./btsync-cli.php btsync.conf removefolder FOOBARFOOBARFOOBARFOOBAR /home/user/folder
-getsyncfolders				./btsync-cli.php btsync.conf getsyncfolders
+addsyncfolder:
+`php btsync-cli.php btsync.conf addsyncfolder FOOBARFOOBARFOOBARFOOBAR /home/user/folder`
 
+removefolder:
+`php btsync-cli.php btsync.conf removefolder FOOBARFOOBARFOOBARFOOBAR /home/user/folder`
+
+getsyncfolders:
+`php btsync-cli.php btsync.conf getsyncfolders`
+
+
+## Contact
+* email: nibiru[at]safe-mail[dot]net
