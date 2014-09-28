@@ -6,7 +6,7 @@ to adddir, addsyncfolder, removefolder and getsyncfolders.
 
 ## Core Requirements
 * PHP with phpcurl
-* `bit torrent sync <http://www.bittorrent.com/sync>`_
+* <a href="http://www.bittorrent.com/sync">bit torrent sync</a>
 * bit torrent sync config (important! needed webUI-listen, -login, -admin and -password)
 
 ## usage
