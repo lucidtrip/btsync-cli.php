@@ -37,4 +37,4 @@ php btsync-cli.php btsync.conf getsyncfolders
 
 
 ## Contact
-* email: nibiru[at]safe-mail[dot]net
+* email: lucid.trip[at]mail[dot]ru
